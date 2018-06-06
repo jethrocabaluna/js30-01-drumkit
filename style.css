@@ -6,16 +6,23 @@
 
 html {
     font-size: 10px;
+    height: 100%;
 }
 
 body {
-    background-color: #333;
+    /* background-color: #333; */
+    /* min-height: 100%; */
+    /* background-image: url(bg.jpeg); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
     width: 80%;
     max-width: 1024px;
-    margin: 5rem auto;
+    margin: 25vh auto;
 }
 
 h1 {
