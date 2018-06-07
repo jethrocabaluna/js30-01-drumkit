@@ -10,9 +10,6 @@ html {
 }
 
 body {
-    /* background-color: #333; */
-    /* min-height: 100%; */
-    /* background-image: url(bg.jpeg); */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,7 +49,7 @@ h1 {
     text-align: center;
     font-weight: 100;
     border: .3rem solid #fff;
-    transition: all 0.1s;
+    transition: all 0.07s;
 }
 
 .key.playing {
